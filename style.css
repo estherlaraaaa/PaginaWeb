@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    background-color: aquamarine
+}
+
+.nav-desplegable,submenu {
+    background-color: rgb(71, 73, 71);
+    color: white;
+    padding: 12.8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+    
+.nav-desplegable, .submenu {
+    position: relative;
+    left : 0;
+    width : 100%;       
+    }
+
+.nav-desplegable-content, .submenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+
+.nav-desplegable-content li, .submenu-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    
+.nav-desplegable-content li:hover, .submenu-content li:hover {background-color: #f1f1f1}
+    
+.nav-desplegable:hover .nav-desplegable-content, .submenu:hover .submenu-content {
+    display: block;
+    }
+    
+.nav-desplegable:hover .nav-desplegable-button, .submenu:hover .submenu-button {
+    background-color: #a2ada2;
+    }

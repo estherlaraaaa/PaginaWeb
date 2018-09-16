@@ -140,6 +140,8 @@ div:hover{
 }
 .seccion7{
     background-color: palevioletred;
+    text-align: center;
+    justify-content: center;
 }
 
 .nav-footer ul li {
@@ -147,7 +149,8 @@ div:hover{
     float: center;
     text-align: center;
     margin-top: 0;
-    font-size: 1em;   
+    font-size: 1em; 
+    justify-content: center;  
 }
 
 .nav-footer ul li a{ 
@@ -158,6 +161,7 @@ div:hover{
     color: inherit;
     text-transform: uppercase;
     padding: 1em;
+    justify-content: center;
 }
 
 .nav-footer ul li:hover{
@@ -170,7 +174,7 @@ div:hover{
 }
 
 .flex-container-logos ul{
-    width: 50%;
+    width: 100%;
     list-style: none;
     display: flex;
     flex-direction: row;

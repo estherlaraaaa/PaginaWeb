@@ -46,10 +46,24 @@
     }
 
 .seccion1{
-    background-color: #a2ada2;
-}
-.seccion2{
     background-color: rebeccapurple;
+}
+
+.seccion2 { 
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 1px 1px 0px  rgb(0, 102, 255);
+    color: black;
+}
+
+.seccion2 .media, .seccion2 .body { 
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.seccion2 .media, .seccion2 .body{ 
+    float: right;
 }
 
 .paralax-background {
@@ -62,7 +76,7 @@
 .seccion3{
     background-color: blue;
         height: 100vh;
-        background-image: url("pic3.jpg"); /*pone la imagen de fondo en todo el body*/
+        background-image: url("pic3.jpg"); 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -73,7 +87,7 @@
 }
 .seccion4{
     display: grid;
-    background-color: peru;
+    background-color:white;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 4%;

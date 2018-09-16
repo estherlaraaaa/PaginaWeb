@@ -72,6 +72,7 @@
     overflow: hidden;
     box-shadow: 1px 1px 0px  rgb(0, 102, 255);
     color: black;
+    padding: 10%;
 }
 
 .seccion2 .media, .seccion2 .body { 

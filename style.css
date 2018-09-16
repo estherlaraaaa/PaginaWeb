@@ -1,5 +1,7 @@
 .container{
     display: grid;
+    padding: 7%;
+    background-color: rgb(70, 24, 75)
 }
 
 .nav-desplegable,submenu {

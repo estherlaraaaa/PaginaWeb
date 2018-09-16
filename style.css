@@ -141,3 +141,37 @@ div:hover{
 .seccion7{
     background-color: palevioletred;
 }
+
+.nav-footer ul li {
+    display: inline-block;
+    float: center;
+    text-align: center;
+    margin-top: 0;
+    font-size: 1em;   
+}
+
+.nav-footer ul li a{ 
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.nav-footer ul li:hover{
+    color: purple;
+}
+
+.flex-container-logos li{
+    color: #a8abad;   
+    padding: 1em;
+}
+
+.flex-container-logos ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}

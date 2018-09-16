@@ -1,21 +1,20 @@
 .container{
     display: grid;
-    background-color: aquamarine
 }
 
 .nav-desplegable,submenu {
-    background-color: rgb(71, 73, 71);
     color: white;
     padding: 12.8px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    width: 100%;
     }
     
 .nav-desplegable, .submenu {
     position: relative;
     left : 0;
-    width : 100%;       
+    width : 4%;       
     }
 
 .nav-desplegable-content, .submenu-content {
@@ -34,7 +33,9 @@
     display: block;
     }
     
-.nav-desplegable-content li:hover, .submenu-content li:hover {background-color: #f1f1f1}
+.nav-desplegable-content li:hover, .submenu-content li:hover {
+    background-color: #f1f1f1;
+}
     
 .nav-desplegable:hover .nav-desplegable-content, .submenu:hover .submenu-content {
     display: block;
@@ -43,3 +44,68 @@
 .nav-desplegable:hover .nav-desplegable-button, .submenu:hover .submenu-button {
     background-color: #a2ada2;
     }
+
+.seccion1{
+    background-color: #a2ada2;
+}
+.seccion2{
+    background-color: rebeccapurple;
+}
+
+.paralax-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion3{
+    background-color: blue;
+        height: 100vh;
+        background-image: url("pic3.jpg"); /*pone la imagen de fondo en todo el body*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1em;
+        text-transform: capitalize;
+        min-height: 600px;
+}
+.seccion4{
+    display: grid;
+    background-color: peru;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 4%;
+}
+
+.seccion4 > div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    object-fit: cover;
+    padding: 1.5%;
+    margin: 0%;
+}
+
+.seccion4 div img{
+    visibility: visible;
+}
+
+.seccion4 div:hover img{
+    visibility: hidden;
+}
+
+div:hover{
+    background-color: plum;
+}
+
+.seccion5{
+    background-color: yellow;
+}
+.seccion6{
+    background-color: pink;
+}
+.seccion7{
+    background-color: palevioletred;
+}

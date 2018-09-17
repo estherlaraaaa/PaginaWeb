@@ -63,8 +63,25 @@
     background-color: #a2ada2;
     }
 
+.seccion0{
+    background-color: black;
+    width: 100%;
+    height: 45%;
+}
+
+.logo{
+    display: inline-block;
+}
+
+
+
 .seccion1{
     background-color: rebeccapurple;
+}
+
+.contenido{
+    text-align: center;
+    justify-content: center;
 }
 
 .seccion2 { 
@@ -179,4 +196,20 @@ div:hover{
     list-style: none;
     display: flex;
     flex-direction: row;
+}
+
+.flex-container-nav li{
+    color: #a8abad;   
+    padding: 1em;
+}
+
+.flex-container-nav ul{
+    width: 95%;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-container-nav{
+    justify-content: right;
+    text-align: right;
 }

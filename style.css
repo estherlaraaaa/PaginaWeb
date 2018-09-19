@@ -222,8 +222,54 @@ div:hover{
 }*/
 
 .seccion5{
-    background-color: yellow;
+    padding: 5%;
+    background-image: url("pic9.jpg"); 
+    background-color:rgb(255,0,0);
+    opacity:0.7;
+    height: 60vh;
 }
+
+.cajitas, .texto{
+    text-align: center;
+}
+
+.texto{
+    color: white;
+}
+
+.btn{
+    text-align: right;
+    width: 1210px;
+}
+
+input[type=email]{
+    padding: 7px;
+    border: 1px solid #8373ca;
+    border-radius: 4px;
+    width: 497px;
+    background: transparent;
+}
+
+input[type=text]{
+    padding: 7px;
+    border: 1px solid #8373ca;
+    border-radius: 4px;
+    width: 497px;
+    background: transparent;
+}
+
+input[type=wish]{
+    padding: 7px;
+    border: 1px solid #8373ca;
+    border-radius: 4px;
+    background: transparent;
+}
+
+
+
+
+
+
 .seccion6{
     background-color: pink;
 }

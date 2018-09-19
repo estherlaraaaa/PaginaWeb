@@ -85,7 +85,7 @@
     text-transform: capitalize;
     min-height: 600px;
     background-color:rgb(255,0,0);
-    opacity:0.6;
+    opacity:0.7;
 }
 
 .contenido{
@@ -191,16 +191,34 @@
     margin: 0%;
 }
 
-.seccion4 div img{
+.seccion4 animacion p, .seccion4 animacion img{
+    visibility: hidden;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.seccion4 animacion img:hover p{
+    visibility: visible;
+}
+
+.animacion:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+
+/*.seccion4 div img{
     visibility: visible;
 }
 
 .seccion4 div:hover img{
     visibility: hidden;
+    background-color:rgb(255,0,0);
+    opacity:0.6;
 }
 
-/*div:hover{
-    background-color: plum;
+div:hover{
+    background-color:rgb(255,0,0);
+    opacity:0.6;
 }*/
 
 .seccion5{

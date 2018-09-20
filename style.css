@@ -1,7 +1,7 @@
 .container{
     display: grid;
     padding: 7%;
-    background-color: rgb(214, 48, 48);
+    background-color: rgb(0, 0, 0);
 }
 
 .button{
@@ -77,7 +77,7 @@
     text-transform: capitalize;
     min-height: 600px;
     background-color:rgb(255,0,0);
-    opacity:0.7;
+    opacity:0.5;
 }
 
 .contenido{
@@ -180,10 +180,40 @@
     align-content: center;
     object-fit: cover;
     padding: 1.5%;
-    margin: 0%;
+    margin: 3%;
 }
 
-.seccion4 animacion p, .seccion4 animacion img{
+.animacion{
+    background-image: url("pic4.jpg"); 
+    width: 550px;
+    height: 500px;
+    padding: 10%;
+}
+
+.animacion1{
+    background-image: url("pic6.jpg"); 
+    width: 550px;
+    height: 500px;
+    padding: 10%;
+}
+
+.animacion2{
+    background-image: url("pic7.jpg"); 
+    width: 550px;
+    height: 500px;
+    padding: 10%;
+}
+
+.animacion3{
+    background-image: url("pic8.jpg"); 
+    width: 550px;
+    height: 500px;
+    padding: 10%;
+}
+
+
+
+/*.seccion4 animacion p, .seccion4 animacion img{
     visibility: hidden;
     padding-top: 10px;
     text-align: center;
@@ -195,8 +225,7 @@
 
 .animacion:hover{
     background-color: rgba(255, 0, 0, 0.5);
-}
-
+}*/
 
 /*.seccion4 div img{
     visibility: visible;
@@ -214,10 +243,11 @@ div:hover{
 }*/
 
 .seccion5{
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 1%;
     background-image: url("pic9.jpg"); 
     background-color:rgb(255,0,0);
-    opacity:0.7;
+    opacity:0.6;
     height: 60vh;
 }
 
@@ -226,17 +256,17 @@ div:hover{
 }
 
 .texto{
-    color: white;
+    color: black;
 }
 
 .btn{
     text-align: right;
-    width: 1200px;
+    width: 1150px;
 }
 
 input[type=email]{
     padding: 7px;
-    border: 1px solid #8373ca;
+    border: 1px solid #e06363;
     border-radius: 4px;
     width: 497px;
     background: transparent;
@@ -244,15 +274,15 @@ input[type=email]{
 
 input[type=text]{
     padding: 7px;
-    border: 1px solid #8373ca;
+    border: 1px solid #e06363;
     border-radius: 4px;
     width: 497px;
     background: transparent;
 }
 
-input[type=wish]{
+textarea[name=wish]{
     padding: 7px;
-    border: 1px solid #8373ca;
+    border: 1px solid #e06363;
     border-radius: 4px;
     background: transparent;
 }
@@ -264,8 +294,7 @@ input[type=wish]{
 }
 
 .subs{
-    padding: 5%;
-    padding-top: 9%;
+    padding-top: 6%;
     color: rgb(102, 99, 99);
 }
 
@@ -283,7 +312,7 @@ input[type=wish]{
 
 .pie{
     padding: 5%;
-    padding-top: 9%;
+    padding-top: 5%;
 }
 
 .nav-footer ul li {
@@ -294,6 +323,7 @@ input[type=wish]{
     font-size: 1em;
     font-weight: 300;
     line-height: 1.5em; 
+    padding: 2%;
 }
 
 .nav-footer ul li a{ 
@@ -308,7 +338,7 @@ input[type=wish]{
 }
 
 .nav-footer ul li:hover{
-    color: purple;
+    color: red;
 }
 
 .flex-container-logos li{
@@ -321,6 +351,11 @@ input[type=wish]{
     list-style: none;
     display: flex;
     flex-direction: row;
+}
+
+.emoji{
+    color: red;
+    display: inline-block;
 }
 
 

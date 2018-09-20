@@ -148,8 +148,6 @@
     position: relative;
     width: 100%;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
     font-size: 30px;
     text-decoration: black;
     background-color: rgba(255, 255, 255, 0.5);
@@ -221,6 +219,10 @@
     opacity: 0.7;
     display: none;
     padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
 }
 
 .animacion:hover .caja{
@@ -233,6 +235,9 @@
     display: none;
     padding: 10px;
     width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .animacion1:hover .caja1{
@@ -244,6 +249,10 @@
     opacity: 0.7;
     display: none;
     padding: 10px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .animacion2:hover .caja2{
@@ -255,7 +264,10 @@
     opacity: 0.7;
     display: none;
     padding: 10px;
-    align-content: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .animacion3:hover .caja3{

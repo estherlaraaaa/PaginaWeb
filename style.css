@@ -179,8 +179,13 @@
     justify-content: center;
     align-content: center;
     object-fit: cover;
-    padding: 1.5%;
+    padding: 0%;
     margin: 3%;
+}
+
+.seccion4 p{
+    text-align: center;
+    padding-top: 35%;
 }
 
 .animacion{
@@ -211,36 +216,51 @@
     padding: 10%;
 }
 
-
-
-/*.seccion4 animacion p, .seccion4 animacion img{
-    visibility: hidden;
-    padding-top: 10px;
-    text-align: center;
+.caja{
+    background: rgb(238, 36, 36);
+    opacity: 0.7;
+    display: none;
+    padding: 10px;
 }
 
-.seccion4 animacion img:hover p{
-    visibility: visible;
+.animacion:hover .caja{
+    display: block;
 }
 
-.animacion:hover{
-    background-color: rgba(255, 0, 0, 0.5);
-}*/
-
-/*.seccion4 div img{
-    visibility: visible;
+.caja1{
+    background: rgb(238, 36, 36);
+    opacity: 0.7;
+    display: none;
+    padding: 10px;
+    width: 100%;
 }
 
-.seccion4 div:hover img{
-    visibility: hidden;
-    background-color:rgb(255,0,0);
-    opacity:0.6;
+.animacion1:hover .caja1{
+    display: block;
 }
 
-div:hover{
-    background-color:rgb(255,0,0);
-    opacity:0.6;
-}*/
+.caja2{
+    background: rgb(238, 36, 36);
+    opacity: 0.7;
+    display: none;
+    padding: 10px;
+}
+
+.animacion2:hover .caja2{
+    display: block;
+}
+
+.caja3{
+    background: rgb(238, 36, 36);
+    opacity: 0.7;
+    display: none;
+    padding: 10px;
+    align-content: center;
+}
+
+.animacion3:hover .caja3{
+    display: block;
+}
 
 .seccion5{
     padding-top: 5%;
@@ -357,5 +377,6 @@ textarea[name=wish]{
     color: red;
     display: inline-block;
 }
+
 
 

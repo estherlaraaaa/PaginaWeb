@@ -1,10 +1,22 @@
-*, *::before, *::after{
-    box-sizing: inherit;
+.container{
+    display: grid;
+    padding: 7%;
+    background-color: rgb(0, 0, 0);
 }
 
-body{
-    background-color: #4b379a;
-    margin: 0;
+.button{
+    border: 2px solid #f56a6a; 
+    padding: 1em;
+    border-radius: 25px;
+    color: #f56a6a;
+    background-color: white;
+    font-size: 75%;
+    width: 200px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .menu{
@@ -29,32 +41,17 @@ body{
 
 .menu ul li a{
     text-decoration: none;
-    color: rgb(248, 0, 0);
+    color: rgb(252, 52, 52);
     text-transform: uppercase;
     font-size: 0.8em;
     transition: 0.3s;
 }
 
 .menu ul li a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 197, 197);
     transition: 0.3s;
 }
 
-.container{
-    display: grid;
-    padding: 7%;
-    background-color: rgb(0, 0, 0);
-}
-
-.button{
-    border: 2px solid #f56a6a; 
-    padding: 1em;
-    border-radius: 25px;
-    color: #f56a6a;
-    background-color: white;
-    font-size: 75%;
-    width: 200px;
-}
 
 .button:hover{
     background-image: url("button.jpg");
@@ -63,7 +60,45 @@ body{
     border: 2px solid #f56a6a;   
 }
 
+.submenu {
+    color: white;
+    padding: 12.8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    }
+    
+.submenu {
+    position: absolute;
+    left: 65%;
+    width: 30%;
+    display: inline-block;      
+}
 
+.submenu-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+    
+
+.submenu-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    }
+    
+.submenu-content li:hover {
+    color: red;
+}
+    
+.submenu:hover .submenu-content {
+    display: inline-block;
+    padding:0 10px;
+    
+}
 
 .logo{
     display: inline-block;

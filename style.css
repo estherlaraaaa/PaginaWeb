@@ -357,6 +357,7 @@ textarea[name=wish]{
     border: 1px solid #e06363;
     border-radius: 4px;
     background: transparent;
+    width: 994px;
 }
 
 .seccion6{
@@ -441,6 +442,11 @@ textarea[name=wish]{
         font-size: 10px;
     }
 
+    .menu ul li {
+        display: block;
+    }
+
+    
     .seccion4{
         display: block;
         object-fit: contain;
@@ -457,6 +463,15 @@ textarea[name=wish]{
 
     .seccion2 >p {
         text-align: center;
+    }
+
+    .seccion5{
+        display: block;
+    }
+
+    .seccion5 > .cajitas > textarea{
+        height: 160px;
+        width: 490px;
     }
 
     

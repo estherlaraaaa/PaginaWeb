@@ -108,7 +108,7 @@
 
 .seccion1{
     background-image: url("pic1.jpg");
-    height: 90vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -430,3 +430,34 @@ textarea[name=wish]{
     display: inline-block;
 }
 
+@media only screen and (max-width: 900px) {
+
+    .container{
+        display: block;
+    }
+
+    .logo, .menu, .contenido{
+        display: block;
+        font-size: 10px;
+    }
+
+    .seccion4{
+        display: block;
+        object-fit: contain;
+    }
+
+    .media{
+        object-fit: cover;
+        display: block;
+    }
+
+    .seccion2{
+        display: block;
+    }
+
+    .seccion2 >p {
+        text-align: center;
+    }
+
+    
+}
